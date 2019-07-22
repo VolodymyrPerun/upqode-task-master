@@ -1,0 +1,365 @@
+@charset "UTF-8";
+@import "settings";
+@import "fonts";
+
+/*******************Here You Can Change Your Adaptive Styles***********/
+
+@media screen and (max-width: 1366px) {
+    .navbar-nav {
+        margin-left: 312px !important;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .navbar-nav {
+        margin-left: 112px !important;
+    }
+
+    button.owl-prev {
+        top: 43.5% !important;
+        right: 87.5% !important;
+
+    }
+
+    button.owl-next {
+        top: 43.5% !important;
+        left: 87.5% !important;
+    }
+
+    img.img-fluid {
+        height: 7.5rem !important;
+        width: 7.5rem !important;
+    }
+
+    .slider h1.main_title {
+        font-size: 54px !important;
+        top: 90px;
+    }
+
+    button.owl-prev {
+        top: 65.5% !important;
+        right: 80.5% !important;
+    }
+
+    button.owl-next {
+        top: 65.5% !important;
+        left: 80.5% !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 6px;
+        height: 6px;
+        margin: 5px 6px !important;
+        position: absolute !important;
+        top: 78.5% !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    #about {
+        margin-bottom: 70px;
+
+        .ipads {
+            margin-top: -70px;
+
+            .ipads-demo {
+
+                .slider {
+                    margin: 0 auto !important;
+                }
+            }
+
+            .slider_first,
+            .slider_second,
+            .slider_third {
+                width: 310px;
+                height: 515px;
+                margin-top: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar {
+        background: rgba(255, 255, 255, 0.774) !important;
+
+        .navbar-nav {
+            margin-left: 0 !important;
+            background: linear-gradient(-71deg, #503392 0%, #673ab7 49%, #00bff3 100%);
+        }
+
+        .logo {
+            margin: 4px 0 27px 0;
+        }
+
+        .navbar-collapse {
+            height: 100%;
+
+        }
+
+        .header_search form {
+            background: linear-gradient(-71deg, #503392 0%, #673ab7 49%, #00bff3 100%);
+            color: white;
+        }
+
+        .header_search input {
+            color: white;
+        }
+
+        .header_search button:before {
+            color: white;
+        }
+
+    }
+
+    .mainmenu .collapse ul ul,
+    .mainmenu .collapse ul ul.dropdown-menu {
+        width: 15%;
+        margin-top: -130px;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mainmenu .collapse ul ul ul,
+    .mainmenu .collapse ul ul ul.dropdown-menu {
+        width: 15%;
+        margin-top: 10px;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .active {
+        color: white !important;
+    }
+
+    div.scrollup {
+        position: fixed;
+        /* фиксированная позиция */
+        color: #fff;
+        /* цвет текста */
+        background: #aaa7a7;
+        opacity: 0.7;
+        /* цвет заднего фона */
+        right: 20px;
+        /* расстояние от правого края */
+        bottom: 100px;
+        /* расстояние от нижнего края */
+        padding: 10px 16px;
+        /* отступы до содержимого блока */
+        font-size: 22px;
+        /* размер шрифта (иконки) */
+        border-radius: 50%;
+        /* скругление */
+        cursor: pointer;
+        /* форма курсора */
+        display: none;
+        /* не отображать элемент */
+        text-align: center;
+        /*выравнивание содержимого элемента по центру */
+        z-index: 15;
+        opacity: 0.8;
+    }
+
+    .mainmenu .collapse ul ul.dropdown-menu {
+        display: none;
+    }
+
+    .map-container {
+        margin-top: -580px !important;
+    }
+
+    .forms-container {
+        top: 50px !important;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    .mainmenu .collapse ul li:hover>ul {
+        display: block
+    }
+
+    .mainmenu .collapse ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        margin-top: 5px;
+    }
+
+    /*******/
+    .mainmenu .collapse ul ul li {
+        position: relative
+    }
+
+    .mainmenu .collapse ul ul li:hover>ul {
+        display: block
+    }
+
+    .mainmenu .collapse ul ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        display: none;
+    }
+
+    .ipads {
+        .slider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slider_first:hover {
+            background: url("../img/ipad_silver_uncover.png") center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            position: relative;
+            width: 331px;
+            height: 525px;
+            margin-top: 183px;
+            z-index: 2;
+        }
+
+        .slider_second:hover {
+            background: url("../img/ipad_black_uncover.png") center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            position: relative;
+            width: 331px;
+            height: 525px;
+            margin-top: 183px;
+            z-index: 2;
+        }
+
+        .slider_third:hover {
+            background: url("../img/ipad_gold_uncover.png") center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            position: relative;
+            width: 331px;
+            height: 525px;
+            margin-top: 183px;
+            z-index: 2;
+        }
+    }
+
+    div.scrollup {
+        position: fixed;
+        /* фиксированная позиция */
+        color: #fff;
+        /* цвет текста */
+        background: linear-gradient(-71deg, #503392 0%, #673ab7 49%, #00bff3 100%);
+        /* цвет заднего фона */
+        right: 60px;
+        /* расстояние от правого края */
+        bottom: 60px;
+        /* расстояние от нижнего края */
+        padding: 4px 10px;
+        /* отступы до содержимого блока */
+        font-size: 20px;
+        /* размер шрифта (иконки) */
+        border-top-left-radius: 4px;
+        /* скругление верхнего левого угла */
+        border-top-right-radius: 4px;
+        /* скругление верхнего правого угла */
+        /* размер шрифта (иконки) */
+        border-bottom-left-radius: 4px;
+        /* скругление нижнего левого угла */
+        border-bottom-right-radius: 4px;
+        /* скругление нижнего правого угла */
+        cursor: pointer;
+        /* форма курсора */
+        display: none;
+        /* не отображать элемент */
+        text-align: center;
+        /*выравнивание содержимого элемента по центру */
+        z-index: 10;
+    }
+
+    div.scrollup:hover {
+        transform: scale(1.2);
+        color: $yellowText;
+    }
+
+    .active {
+        color: $blueText !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .slider h1.main_title {
+        max-width: 500px !important;
+        font-size: 54px !important;
+        top: 180px !important;
+    }
+
+    .carousel-inner figure {
+        margin-bottom: 50px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .map-container {
+        margin-top: -650px !important;
+        min-height: 47rem !important;
+    }
+
+    .map-container iframe {
+        min-height: 47rem !important;
+    }
+
+    .forms-container {
+        top: 40px !important;
+    }
+
+    #contact .forms-container p.contact_information {
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .rewives {
+        max-height: 100%;
+        transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        margin-bottom: 80px;
+    }
+
+    .social-media_links-item a {
+        margin: 30px auto;
+        font-size: 25px !important;
+    }
+
+    .map-container {
+        margin-top: -750px !important;
+        min-height: 50rem !important;
+    }
+
+    .map-container iframe {
+        min-height: 50rem !important;
+    }
+
+    .forms-container {
+        top: 30px !important;
+        .text-center {
+            padding-bottom: 0 !important;
+            margin: 0 auto 0 !important;
+        }
+
+    }
+
+}
