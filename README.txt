@@ -1,3 +1,5 @@
+DEMO: https://volodymyrperun.github.io/upqode-task-master
+
 Material Design for Bootstrap
 
 Version: MDB Free 4.8.3
